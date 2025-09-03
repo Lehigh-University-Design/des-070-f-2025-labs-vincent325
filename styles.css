@@ -1,0 +1,38 @@
+:root {
+    --background-color: #f0e6d2;
+    --dark-color: #1d1917;
+    --light-color: #fff8e7;
+    --link-color: #854442;
+}
+
+body {
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--background-color);
+    color: var(--dark-color);
+    margin: 1em;
+    font-size: 16px;
+}
+
+main {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h3 a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.post {
+    border:1px solid var(--dark-color);
+    margin-bottom: 1em;
+    padding: .5em 1em;
+}
