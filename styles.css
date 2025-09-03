@@ -2,7 +2,7 @@
     --background-color: #f0e6d2;
     --dark-color: #1d1917;
     --light-color: #fff8e7;
-    --link-color: #854442;
+    --link-color: #a35451;
 }
 
 body {
@@ -35,4 +35,22 @@ header h3 a {
     border:1px solid var(--dark-color);
     margin-bottom: 1em;
     padding: .5em 1em;
+}
+
+.post a {
+    color: var(--link-color);
+    text-decoration: none;
+    background-color: var(--background-color);
+}
+
+.post img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
 }
